@@ -15,7 +15,7 @@ import com.martialdev.hackaton.skipthedishes.products.repos.ProductRepository;
 
 @RepositoryRestController
 @RequestMapping(value="/search", method=RequestMethod.GET)
-public class DefaultSearchController {
+public class ProductSearchController {
 
 	@Autowired
 	ProductRepository productRepository;
