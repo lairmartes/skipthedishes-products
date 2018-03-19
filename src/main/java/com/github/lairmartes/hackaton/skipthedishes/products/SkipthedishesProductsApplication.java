@@ -1,4 +1,4 @@
-package com.martialdev.hackaton.skipthedishes.products;
+package com.github.lairmartes.hackaton.skipthedishes.products;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

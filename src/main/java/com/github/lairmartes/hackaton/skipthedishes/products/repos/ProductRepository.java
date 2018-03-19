@@ -1,9 +1,9 @@
-package com.martialdev.hackaton.skipthedishes.products.repos;
+package com.github.lairmartes.hackaton.skipthedishes.products.repos;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 
-import com.martialdev.hackaton.skipthedishes.products.entities.Product;
+import com.github.lairmartes.hackaton.skipthedishes.products.entities.Product;
 
 public interface ProductRepository extends PagingAndSortingRepository<Product, Long>{
 	

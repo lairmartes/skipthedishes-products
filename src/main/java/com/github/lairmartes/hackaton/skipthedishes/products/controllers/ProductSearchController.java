@@ -1,4 +1,4 @@
-package com.martialdev.hackaton.skipthedishes.products.controllers;
+package com.github.lairmartes.hackaton.skipthedishes.products.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.PersistentEntityResource;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.martialdev.hackaton.skipthedishes.products.entities.Product;
-import com.martialdev.hackaton.skipthedishes.products.repos.ProductRepository;
+import com.github.lairmartes.hackaton.skipthedishes.products.entities.Product;
+import com.github.lairmartes.hackaton.skipthedishes.products.repos.ProductRepository;
 
 @RepositoryRestController
 @RequestMapping(value="/search", method=RequestMethod.GET)

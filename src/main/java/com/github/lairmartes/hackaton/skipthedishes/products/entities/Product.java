@@ -1,4 +1,4 @@
-package com.martialdev.hackaton.skipthedishes.products.entities;
+package com.github.lairmartes.hackaton.skipthedishes.products.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
